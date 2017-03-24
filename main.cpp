@@ -144,7 +144,7 @@ void stop_motor(); //apply 'brakes' to stop the motor
 void check_CHA(); //check the quadrature output
 void receivecommand(); //receive command from the user
 void empty(); //clear the command buffer
-void initialize();
+void initialize();//initialize a few constants to original values
 //@@@@@@@@FUNCTION DEFINITIONS@@@@@@@@@
 
 //Main
